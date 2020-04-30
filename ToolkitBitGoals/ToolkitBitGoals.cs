@@ -12,7 +12,7 @@ namespace ToolkitBitGoals
     {
         public ToolkitBitGoals(ModContentPack content) : base(content)
         {
-
+            GetSettings<ToolkitBitGoalsSettings>();
         }
 
         public override void DoSettingsWindowContents(Rect inRect)

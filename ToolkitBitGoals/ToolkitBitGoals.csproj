@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddonMenu.cs" />
+    <Compile Include="BitGoalGUI.cs" />
     <Compile Include="BitParser.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="RandomMap.cs" />
