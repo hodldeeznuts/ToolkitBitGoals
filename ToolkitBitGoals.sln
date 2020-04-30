@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolkitBitGoals", "ToolkitBitGoals\ToolkitBitGoals.csproj", "{FA7B120E-3F71-46F4-BCA8-FE15AE87E2C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7B120E-3F71-46F4-BCA8-FE15AE87E2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7B120E-3F71-46F4-BCA8-FE15AE87E2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7B120E-3F71-46F4-BCA8-FE15AE87E2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7B120E-3F71-46F4-BCA8-FE15AE87E2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C5AA22F-02F7-45CD-BD89-F8B41A913992}
+	EndGlobalSection
+EndGlobal
