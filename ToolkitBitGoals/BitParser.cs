@@ -1,9 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ToolkitCore;
 using TwitchLib.Client.Models.Interfaces;
 using Verse;
@@ -14,7 +9,6 @@ namespace ToolkitBitGoals
     {
         public BitParser(Game game)
         {
-
         }
 
         public override void ParseMessage(ITwitchMessage twitchMessage)
