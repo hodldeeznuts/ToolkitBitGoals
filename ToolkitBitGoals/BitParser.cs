@@ -31,18 +31,12 @@ namespace ToolkitBitGoals
         {
             if (currentBitCounter >= ToolkitBitGoalsSettings.bitGoal)
             {
-                currentBitCounter = currentBitCounter - ToolkitBitGoalsSettings.bitGoal;
+                currentBitCounter -= ToolkitBitGoalsSettings.bitGoal;
 
                 Map map = RandomMap.GetRandomMap();
 
-                IncidentWorker_RaidEnemy raid = new IncidentWorker_RaidEnemy
-                {
-                    def = IncidentDefOf.RaidEnemy,
-                };
-
-                IncidentParms parms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, map);
-
-                raid.TryExecute(parms);
+                IncidentParms incidentParms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, map);
+                IncidentDefOf.RaidEnemy.Worker.TryExecute(incidentParms);
             }
         }
 
