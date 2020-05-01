@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 using Verse;
 
 namespace ToolkitBitGoals
@@ -12,9 +7,9 @@ namespace ToolkitBitGoals
     {
         public static int bitGoal = 100;
 
-        static bool devMode = false;
+        private static bool devMode = false;
 
-        static int bitsToAddToGoal = 0;
+        private static int bitsToAddToGoal = 0;
 
         public void DoWindowContents(Rect inRect)
         {

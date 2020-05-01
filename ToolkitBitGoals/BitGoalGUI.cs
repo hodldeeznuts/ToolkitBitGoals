@@ -1,18 +1,12 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 using Verse;
 
 namespace ToolkitBitGoals
 {
     public static class BitGoalGUI
     {
-        static int frameCounter = 100;
-        static int currentBitCounterCached = 0;
+        private static int frameCounter = 100;
+        private static int currentBitCounterCached = 0;
 
         public static void DisplayCounter()
         {
@@ -30,7 +24,7 @@ namespace ToolkitBitGoals
             Text.Font = old;
         }
 
-        static void RecacheCurrentBits()
+        private static void RecacheCurrentBits()
         {
             if (frameCounter >= 100)
             {
