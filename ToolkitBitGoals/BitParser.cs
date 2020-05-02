@@ -13,7 +13,7 @@ namespace ToolkitBitGoals
 
         public override void ParseMessage(ITwitchMessage twitchMessage)
         {
-            if (twitchMessage.ChatMessage.Bits > 0)
+            if (twitchMessage.ChatMessage != null && twitchMessage.ChatMessage.Bits > 0)
             {
                 currentBitCounter += twitchMessage.ChatMessage.Bits;
 
